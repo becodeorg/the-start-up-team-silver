@@ -3,8 +3,17 @@
 ## Checklist - TODO's
 
 - [x] Choose a company name, logo, slogan
-- [x] And when you finish you can check it to show it's finished
-- [x] Awesome!
+- [ ] Choose a color palette
+- [ ] Homepage (Jordy & Muhammet)
+  - [ ] Navbar
+  - [ ] Hero
+  - [ ] Header
+  - [ ] Reviews
+  - [ ] Footer
+- [ ] Services (Muhammet)
+  - [ ] Todo blocks of page will come here
+- [ ] Contact (Jordy)
+  - [ ] Todo blocks of page will come here
 
 <!-- This --- is used for drawing a horizontal line (seperator) -->
 ---
@@ -21,6 +30,8 @@ We are using Figma for wireframing. We created a team to work on the design toge
 To join the team click on the link.
 
 Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4ORC>
+
+---
 
 # IT 4 you
 ## We do IT 4 you

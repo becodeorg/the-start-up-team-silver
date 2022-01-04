@@ -1,4 +1,4 @@
-# Startup IT 4 YOU
+# Startup - IT 4 YOU
 
 ## Checklist - TODO's
 
@@ -42,18 +42,18 @@ Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4OR
 
 ## Color scheme
 
-- #003E29 -> <span style="color: #003e29;">Dark green</span> -> usages?
-- #ADE6B9 -> <span style="color: #ADE6b9;">light green</span> -> usages?
-- #BCBDBC -> <span style="color: #BCBDBC;">Grey</span> -> usages?
-- #FFFFFF -> <span style="color: #FFFFFF;">white</span> -> usages?
+- <p style="color: #003e29;">Dark Green</p> -> #003E29
+- #ADE6B9 -> <span style="color: #ADE6b9;">Light Green</span>
+- #BCBDBC -> <span style="color: #BCBDBC;">Grey</span>
+- #FFFFFF -> <span style="color: #FFFFFF;">White</span>
 
 ---
 
-## IT 4 You: we do IT 4 you
+## IT 4 You: we do IT for you
 
 Have you bought a smartwatch and cant get it conected to your phone or the internet? We do IT 4 you.
 IT4U is a company that offers services to help people by installing their gadgets for them at home.
 
 #### Logo
 
-![IT4U](images/LogoNav.png)
+<img src="images/LogoNav.png" width="100" height="100" alt="IT4You-logo">

@@ -31,8 +31,18 @@ To join the team click on the link.
 
 Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4ORC>
 
+## color scheme
+https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
+
+- #191A19 -> black -> usages?
+- #1E5128 -> dark green -> usages?
+- #4E9F3D -> medium green -> usages?
+- #D8E9A8 -> Light green -> usages?
 ---
 
 # IT 4 you
+Have you bought a smartwatch and cant get it conected to your phone or the internet? We do IT 4 you.
+IT4U is a company that offers services to help people by installing their gadgets for them at home.
+___
 ## We do IT 4 you
 ### IT4U

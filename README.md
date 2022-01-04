@@ -33,6 +33,8 @@ Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4OR
 
 ---
 
-# IT 4 you
-## We do IT 4 you
-### IT4U
+## Company name: IT 4 You
+#### Slogan: We do IT 4 you
+
+#### Logo: 
+![IT4U](images/Logo.png)

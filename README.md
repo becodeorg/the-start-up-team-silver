@@ -15,6 +15,10 @@
 - [ ] Contact (Jordy)
   - [ ] Todo blocks of page will come here
 
+### Nice to have's in Github Readme file:
+
+- [x] Color palette hex codes with actual color (eg. text color)
+
 <!-- This --- is used for drawing a horizontal line (seperator) -->
 ---
 
@@ -34,20 +38,23 @@ Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4OR
 ## color scheme
 https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
 
-- #191A19 -> black -> usages?
-- #1E5128 -> dark green -> usages?
-- #4E9F3D -> medium green -> usages?
-- #D8E9A8 -> Light green -> usages?
+- #191A19 -> <span style="color: #191A19;">Black</span> -> usages?
+- #1E5128 -> <span style="color: #1E5128;">Dark green</span> -> usages?
+- #4E9F3D -> <span style="color: #4E9F3D;">Medium green</span> -> usages?
+- #D8E9A8 -> <span style="color: #D8E9A8;">Light green</span> -> usages?
+
 ---
 
 # IT 4 you
+
 Have you bought a smartwatch and cant get it conected to your phone or the internet? We do IT 4 you.
 IT4U is a company that offers services to help people by installing their gadgets for them at home.
-___
+
+---
+
 ## We do IT 4 you
+
 ### IT4U
-## Company name: IT 4 You
-#### Slogan: We do IT 4 you
 
 #### Logo: 
 ![IT4U](images/Logo.png)

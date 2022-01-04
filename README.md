@@ -6,8 +6,8 @@
 - [x] And when you finish you can check it to show it's finished
 - [x] Awesome!
 
-<!-- This hr tag is used for drawing a horizontal line (seperator) -->
-<hr>
+<!-- This --- is used for drawing a horizontal line (seperator) -->
+---
 
 ### Using comments
 

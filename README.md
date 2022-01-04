@@ -18,7 +18,12 @@
   - [ ] HTML&CSS tablet version
   - [ ] HTML&CSS desktop version
 - [ ] Contact (Jordy)
-  - [ ] Todo blocks of page will come here
+  - [ ] Wireframe mobile version
+  - [ ] Wireframe tablet version
+  - [ ] Wireframe desktop version
+  - [ ] HTML&CSS mobile version
+  - [ ] HTML&CSS tablet version
+  - [ ] HTML&CSS desktop version
 
 ### Nice to have's in Github Readme file
 

@@ -3,7 +3,7 @@
 ## Checklist - TODO's
 
 - [x] Choose a company name, logo, slogan
-- [ ] Choose a color palette
+- [x] Choose a color palette
 - [ ] Homepage (Jordy & Muhammet)
   - [ ] Navbar
   - [ ] Hero
@@ -38,10 +38,11 @@ Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4OR
 ## color scheme
 https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
 
-- #191A19 -> <span style="color: #191A19;">Black</span> -> usages?
-- #1E5128 -> <span style="color: #1E5128;">Dark green</span> -> usages?
-- #4E9F3D -> <span style="color: #4E9F3D;">Medium green</span> -> usages?
-- #D8E9A8 -> <span style="color: #D8E9A8;">Light green</span> -> usages?
+- #003e29 -> <span style="color: #003e29;">Dark green</span> -> usages?
+- #ADE6B9 -> <span style="color: #ADE6b9;">light green</span> -> usages?
+- #BCBDBC -> <span style="color: #BCBDBC;">Grey</span> -> usages?
+- #ffff -> <span style="color: white;">white</span> -> usages?
+
 
 ---
 
@@ -57,4 +58,4 @@ IT4U is a company that offers services to help people by installing their gadget
 ### IT4U
 
 #### Logo: 
-![IT4U](images/IT4YouLogo.png)
+![IT4U](images/LogoNav.png)

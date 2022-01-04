@@ -27,7 +27,7 @@
 
 ### Nice to have's in Github Readme file
 
-- [x] Color palette hex codes with actual color (eg. text color)
+> - [x] Color palette hex codes with actual color (eg. text color) => it's not possible in GitHub :'(
 
 <!-- This --- is used for drawing a horizontal line (seperator) -->
 ---

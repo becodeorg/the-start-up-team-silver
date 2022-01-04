@@ -42,10 +42,10 @@ Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4OR
 
 ## Color scheme
 
-- <p style="color: #003e29;">Dark Green</p> -> #003E29
-- #ADE6B9 -> <span style="color: #ADE6b9;">Light Green</span>
-- #BCBDBC -> <span style="color: #BCBDBC;">Grey</span>
-- #FFFFFF -> <span style="color: #FFFFFF;">White</span>
+- <span style="color: #003E29;">Dark Green</span> -> #003E29
+- <span style="color: #ADE6B9;">Light Green</span> -> #ADE6B9
+- <span style="color: #BCBDBC;">Grey</span> -> #BCBDBC
+- <span style="color: #FFFFFF;">White</span> -> #FFFFFF
 
 ---
 

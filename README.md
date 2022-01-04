@@ -46,3 +46,8 @@ IT4U is a company that offers services to help people by installing their gadget
 ___
 ## We do IT 4 you
 ### IT4U
+## Company name: IT 4 You
+#### Slogan: We do IT 4 you
+
+#### Logo: 
+![IT4U](images/Logo.png)

@@ -11,7 +11,7 @@
   - [ ] Reviews
   - [ ] Footer
 - [ ] Services (Muhammet)
-  - [ ] Wireframe mobile version
+  - [x] Wireframe mobile version
   - [x] Wireframe tablet version
   - [x] Wireframe desktop version
   - [ ] HTML&CSS mobile version

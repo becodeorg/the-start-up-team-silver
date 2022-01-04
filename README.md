@@ -50,4 +50,4 @@ ___
 #### Slogan: We do IT 4 you
 
 #### Logo: 
-![IT4U](images/Logo.png)
+![IT4U](images/IT4YouLogo.png)

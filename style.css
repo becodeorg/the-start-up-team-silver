@@ -148,4 +148,23 @@ body {
     width: 150px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .carousel {
+    height: 85vh;
+    min-width: 100%;
+  }
+  .carousel .carousel-item {
+    height: 85vh;
+    min-width: 100%;
+  }
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+            transform: translate(-40%, -40%);
+    min-width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

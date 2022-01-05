@@ -57,11 +57,11 @@ body {
   .btn-primary {
     display: none;
   }
-  .footer {
+  footer {
     background-color: #003E29;
     color: #fff;
   }
-  .footer .footer-container {
+  footer .footer-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75,7 +75,17 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 1rem 0;
+  }
+  footer .footer-container ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  footer .footer-container ul li {
+    padding: 10px;
+  }
+  footer .footer-container ul li a {
+    text-decoration: none;
+    color: white;
   }
 }
 
@@ -113,7 +123,7 @@ body {
     background-color: #003E29;
     border-color: #003E29;
   }
-  .footer-container {
+  footer .footer-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -136,9 +146,6 @@ body {
   .navbar img {
     height: 150px;
     width: 150px;
-  }
-  .carousel img {
-    width: 100%;
   }
 }
 

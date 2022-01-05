@@ -62,6 +62,27 @@
     font-size: 0.8em;
     bottom: 0;
   }
+  footer ul {
+    list-style-type: none;
+    margin: 1rem 0;
+    text-decoration: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer ul li {
+    margin: 1rem;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem 0;
+  }
+  footer ul .social-media ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 576px) {

@@ -72,7 +72,16 @@ body {
     background-color: $dark-green;
     color: #fff;
 
-    .footer-links {
+    .footer-container{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
+
+    }
+
+    /*.footer-links {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -104,7 +113,7 @@ body {
       img {
         margin: 10px;
       }
-    }
+    }*/
   }
 }
 
@@ -155,6 +164,10 @@ body {
       background-color: $dark-green;
       border-color: $dark-green;
     }
+  }
+  .footer-container{
+    flex-direction: row;  
+
   }
 }
 

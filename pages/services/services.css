@@ -63,46 +63,55 @@ body {
     height: 50;
     width: 100%;
     bottom: 0;
+    /*.footer-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      ul {
+        list-style-type: none;
+        margin: 1rem 0;
+        align-items: center;
+        padding-left: 0;
+
+        li {
+          margin: 1rem 0;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+            margin: 1rem 0;
+          }
+        }
+      }
+    }
+
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      
+      img {
+        margin: 10px;
+      }
+    }*/
   }
-  .footer .footer-links {
+  .footer .footer-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
-  }
-  .footer .footer-links ul {
-    list-style-type: none;
     margin: 1rem 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 0;
-  }
-  .footer .footer-links ul li {
-    margin: 1rem 0;
-  }
-  .footer .footer-links ul li a {
-    text-decoration: none;
-    color: #fff;
-    margin: 1rem 0;
-  }
-  .footer .footer-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    list-style-type: none;
-  }
-  .footer .footer-social img {
-    margin: 10px;
   }
 }
 
@@ -139,6 +148,12 @@ body {
     color: #fff;
     background-color: #003E29;
     border-color: #003E29;
+  }
+  .footer-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 

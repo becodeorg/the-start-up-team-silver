@@ -5,6 +5,10 @@
     margin: 0;
     padding:0;
     body{
+        .card {
+            background-color: $dark-green;
+            color:$light-green;
+        }
         .hero-1 {
             background-color: $dark-green;
             color:$light-green;

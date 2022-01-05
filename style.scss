@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 576px) {
+@media only screen and (min-width: 200px) {
   .navbar {
     padding-top: 0;
 
@@ -62,9 +62,8 @@
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) {
   .navbar {
-    padding-top: 0;
     padding-bottom: 0;
     padding-right: 2rem;
 
@@ -72,41 +71,13 @@
       width: 60%;
 
       .offcanvas-title {
-        color: $dark-green;
         font-size: 40px;
       }
 
       .navbar-nav {
         .nav-link {
-          color: $dark-green;
           font-size: 30px;
-
-          &:hover,
-          &:active {
-            color: $light-green;
-          }
         }
-
-        .show > .nav-link,
-        .nav-link.active {
-          color: $light-green;
-
-          &:active {
-            color: $dark-green;
-          }
-        }
-      }
-    }
-
-    ul {
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      margin: 1rem 0;
-      align-items: center;
-
-      li {
-        padding: 10px;
       }
     }
 
@@ -115,13 +86,9 @@
       width: 150px;
     }
   }
-
-  .nav-desktop {
-    display: none;
-  }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   .nav-desktop {
     display: block;
   }
@@ -130,5 +97,5 @@
     display: none;
   }
 
-  
+
 }

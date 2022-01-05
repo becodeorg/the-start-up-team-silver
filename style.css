@@ -11,22 +11,22 @@
     width: 100%;
   }
   .navbar .offcanvas-end .offcanvas-title {
-    color: green;
+    color: #003E29;
   }
   .navbar .offcanvas-end .navbar-nav .nav-link {
-    color: green;
+    color: #003E29;
     font-size: 24px;
   }
   .navbar .offcanvas-end .navbar-nav .nav-link:hover, .navbar .offcanvas-end .navbar-nav .nav-link:active {
-    color: lightgreen;
+    color: #ADE6B9;
   }
   .navbar .offcanvas-end .navbar-nav .show > .nav-link,
   .navbar .offcanvas-end .navbar-nav .nav-link.active {
-    color: lightgreen;
+    color: #ADE6B9;
   }
   .navbar .offcanvas-end .navbar-nav .show > .nav-link:active,
   .navbar .offcanvas-end .navbar-nav .nav-link.active:active {
-    color: green;
+    color: #003E29;
   }
   .navbar img {
     height: 100px;

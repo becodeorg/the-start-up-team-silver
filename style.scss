@@ -68,22 +68,33 @@ body {
     display: none;
   }
 
-  .footer {
+  footer {
     background-color: $dark-green;
     color: #fff;
 
-    .footer-container{
+    .footer-container {
       display:flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 1rem 0;
-    }
+      
+      ul{
+        list-style-type: none;
+        text-align: center;
+         li{
+          padding: 10px;          
+            a{
+              text-decoration: none;
+              color: white;             
+            }
+          }
+        }
+      }
   }
 }
 
 // Tablet screen size
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px){
   .navbar {
     padding-bottom: 0;
     padding-right: 2rem;
@@ -130,11 +141,14 @@ body {
       border-color: $dark-green;
     }
   }
-  .footer-container{
-    flex-direction: row;
-    justify-content:space-evenly;  
+  footer{
 
-  }
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-evenly;  
+
+    }
+}
 }
 
 // Desktop screen size

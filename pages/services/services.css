@@ -6,6 +6,7 @@
 @media only screen and (min-width: 200px) {
   .navbar {
     padding-top: 0;
+    padding-right: 2rem;
   }
   .navbar .offcanvas-end {
     width: 100%;
@@ -48,8 +49,40 @@
   .navbar ul li {
     padding: 10px;
   }
-  .nav-desktop {
+  .btn-primary {
     display: none;
+  }
+  footer {
+    background-color: #003E29;
+    color: white;
+    position: fixed;
+    margin-top: 2%;
+    height: 50;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+  }
+  footer ul {
+    list-style-type: none;
+    margin: 1rem 0;
+    text-decoration: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer ul li {
+    margin: 1rem;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem 0;
+  }
+  footer ul .social-media ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -71,14 +104,11 @@
     height: 150px;
     width: 150px;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    width: 70vw !important;
-    margin-left: 15vw !important;
+  a p {
+    display: none;
   }
   .btn-primary {
+    display: block;
     color: #003E29;
     background-color: #ADE6B9;
     border-color: #ADE6B9;
@@ -90,6 +120,13 @@
     background-color: #003E29;
     border-color: #003E29;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
+  }
   .navbar {
     padding-bottom: 0;
     padding-right: 2rem;
@@ -97,6 +134,42 @@
   .navbar img {
     height: 200px;
     width: 200px;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 100px;
+  }
+  .cards h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    color: #003E29;
+    text-align: center;
+  }
+  .call-to-action {
+    padding: 30px 0;
+    background-color: #BCBDBC;
+  }
+  .call-to-action h2 {
+    padding: 20px;
+    color: #003E29;
+    text-align: center;
+    font-weight: 700;
+  }
+  .call-to-action p {
+    padding: 0 0 20px 20px;
   }
 }
 /*# sourceMappingURL=services.css.map */

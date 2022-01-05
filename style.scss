@@ -1,14 +1,20 @@
 @import "./pages/variables.scss";
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 // Reset style
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+// Smartphone screen size
 @media only screen and (min-width: 200px) {
   .navbar {
     padding-top: 0;
+    padding-right: 2rem;
 
     .offcanvas-end {
       width: 100%;
@@ -60,7 +66,7 @@
   .btn-primary {
     display: none;
   }
-  footer{
+  footer {
     background-color: $dark-green;
     color: white;
     position: fixed;
@@ -102,6 +108,7 @@
 
 }
 
+// Tablet screen size
 @media only screen and (min-width: 576px) {
   .navbar {
     padding-bottom: 0;
@@ -126,13 +133,6 @@
       width: 150px;
     }
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    width: 70vw !important;
-    margin-left: 15vw !important;
-  }
 
   a {
     p {
@@ -141,18 +141,28 @@
   }
 
   .btn-primary {
-      display: block;
-      color: $dark-green;
-      background-color: $light-green;
-      border-color: $light-green;
-      font-size: 24px;
-      padding: 10px 25px;
+    display: block;
+    color: $dark-green;
+    background-color: $light-green;
+    border-color: $light-green;
+    font-size: 24px;
+    padding: 10px 25px;
 
-      &:hover, &:active, &:focus {
-        color: #fff;
-        background-color: $dark-green;
-        border-color: $dark-green;
-      }
+    &:hover,
+    &:active,
+    &:focus {
+      color: #fff;
+      background-color: $dark-green;
+      border-color: $dark-green;
+    }
+  }
+}
+
+// Desktop screen size
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
   }
 
   .navbar {

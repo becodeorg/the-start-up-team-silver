@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 @media only screen and (min-width: 200px) {
   .navbar {
     padding-top: 0;
+    padding-right: 2rem;
   }
   .navbar .offcanvas-end {
     width: 100%;
@@ -119,13 +125,6 @@
     height: 150px;
     width: 150px;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    width: 70vw !important;
-    margin-left: 15vw !important;
-  }
   a p {
     display: none;
   }
@@ -141,6 +140,13 @@
     color: #fff;
     background-color: #003E29;
     border-color: #003E29;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
   }
   .navbar {
     padding-bottom: 0;

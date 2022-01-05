@@ -5,18 +5,19 @@
 - [x] Choose a company name, logo, slogan
 - [x] Choose a color palette
 - [ ] Homepage (Jordy & Muhammet)
-  - [ ] Navbar
+  - [x] Navbar
   - [ ] Hero
-  - [ ] Header
   - [ ] Reviews
   - [ ] Footer
 - [ ] Services (Muhammet)
   - [x] Wireframe mobile version
   - [x] Wireframe tablet version
   - [x] Wireframe desktop version
-  - [ ] HTML&CSS mobile version
-  - [ ] HTML&CSS tablet version
-  - [ ] HTML&CSS desktop version
+  - [x] HTML&CSS mobile version
+  - [x] HTML&CSS tablet version
+  - [x] HTML&CSS desktop version
+  - [x] Cards with services layout
+  - [ ] Cards with services texts & images
 - [ ] Contact (Jordy)
   - [x] Wireframe mobile version
   - [x] Wireframe tablet version
@@ -24,6 +25,9 @@
   - [ ] HTML&CSS mobile version
   - [ ] HTML&CSS tablet version
   - [ ] HTML&CSS desktop version
+  - [ ] Contact form with <https://formspree.io/>
+  - [ ] Phone number should be clickable and try to call when clicked
+  - [ ] Google maps pinned on the location of the company
 
 ### Nice to have's in Github Readme file
 

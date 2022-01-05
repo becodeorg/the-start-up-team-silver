@@ -62,7 +62,7 @@
   .btn-primary {
     display: none;
   }
-  footer{
+  footer {
     background-color: $dark-green;
     color: white;
     position: fixed;
@@ -74,32 +74,26 @@
     bottom: 0;
 
     ul {
-        list-style-type: none;
-        margin: 1rem 0;
-        text-decoration: none;
-        align-items: center;
-        li {
-          margin: 1rem;
-        
+      list-style-type: none;
+      margin: 1rem 0;
+      text-decoration: none;
+      align-items: center;
+      li {
+        margin: 1rem;
+
         a {
           text-decoration: none;
           color: white;
-          margin:1rem 0;
-
+          margin: 1rem 0;
         }
       }
       .social-media {
         ul {
           display: flex;
-
         }
-        
-
       }
-
-    }   
+    }
   }
-
 }
 
 // Tablet screen size

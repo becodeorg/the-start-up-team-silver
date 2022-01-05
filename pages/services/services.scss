@@ -17,20 +17,26 @@
   }
 
   .call-to-action {
-      padding: 30px 0;
-      background-color: $grey;
+    padding: 30px 0;
+    background-color: $grey;
 
-      h2 {
-          padding: 20px;
-          color: $dark-green;
-          text-align: center;
-          font-weight: 700;
-      }
+    h2 {
+      padding: 20px;
+      color: $dark-green;
+      text-align: center;
+      font-weight: 700;
+    }
 
-      p {
-          padding: 0 0 20px 20px;
-          
-      }
+    p {
+      padding: 0 0 20px 20px;
+    }
+
+    .btn-secondary {
+      font-size: 20px;
+      background-color: $light-green;
+      color: $dark-green;
+      border-color: $light-green;
+    }
   }
 }
 

@@ -30,10 +30,10 @@
 
         .show > .nav-link,
         .nav-link.active {
-          color: $light-green;
+          color: $dark-green;
 
-          &:active {
-            color: $dark-green;
+          &:hover {
+            color: $light-green;
           }
         }
       }
@@ -71,12 +71,12 @@
       width: 60%;
 
       .offcanvas-title {
-        font-size: 40px;
+        font-size: 36px;
       }
 
       .navbar-nav {
         .nav-link {
-          font-size: 30px;
+          font-size: 24px;
         }
       }
     }
@@ -89,13 +89,13 @@
 }
 
 @media screen and (min-width: 992px) {
-  .nav-desktop {
-    display: block;
+  .navbar {
+    padding-bottom: 0;
+    padding-right: 2rem;
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
   }
-
-  .nav-mobile {
-    display: none;
-  }
-
-
 }

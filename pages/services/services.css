@@ -48,19 +48,8 @@
   .navbar ul li {
     padding: 10px;
   }
-  .btn-primary {
+  .nav-desktop {
     display: none;
-  }
-  footer {
-    background-color: #003E29;
-    color: white;
-    position: fixed;
-    margin-top: 2%;
-    height: 50;
-    width: 100%;
-    text-align: center;
-    font-size: 0.8em;
-    bottom: 0;
   }
 }
 
@@ -89,11 +78,7 @@
     width: 70vw !important;
     margin-left: 15vw !important;
   }
-  a p {
-    display: none;
-  }
   .btn-primary {
-    display: block;
     color: #003E29;
     background-color: #ADE6B9;
     border-color: #ADE6B9;
@@ -114,4 +99,4 @@
     width: 200px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=services.css.map */

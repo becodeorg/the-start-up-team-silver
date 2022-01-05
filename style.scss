@@ -57,7 +57,7 @@
     }
   }
 
-  .nav-desktop {
+  .btn-primary {
     display: none;
   }
   footer{
@@ -100,7 +100,33 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
+  }
+
+  a {
+    p {
+      display: none;
+    }
+  }
+
+  .btn-primary {
+      display: block;
+      color: $dark-green;
+      background-color: $light-green;
+      border-color: $light-green;
+      font-size: 24px;
+      padding: 10px 25px;
+
+      &:hover, &:active, &:focus {
+        color: #fff;
+        background-color: $dark-green;
+        border-color: $dark-green;
+      }
+  }
+
   .navbar {
     padding-bottom: 0;
     padding-right: 2rem;

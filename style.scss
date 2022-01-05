@@ -78,42 +78,7 @@ body {
       justify-content: center;
       align-items: center;
       margin: 1rem 0;
-
     }
-
-    /*.footer-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-      ul {
-        list-style-type: none;
-        margin: 1rem 0;
-        align-items: center;
-        padding-left: 0;
-
-        li {
-          margin: 1rem 0;
-
-          a {
-            text-decoration: none;
-            color: #fff;
-            margin: 1rem 0;
-          }
-        }
-      }
-    }
-
-    .footer-social {
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-      
-      img {
-        margin: 10px;
-      }
-    }*/
   }
 }
 
@@ -166,7 +131,8 @@ body {
     }
   }
   .footer-container{
-    flex-direction: row;  
+    flex-direction: row;
+    justify-content:space-evenly;  
 
   }
 }

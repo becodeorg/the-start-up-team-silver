@@ -66,46 +66,48 @@ body {
   .btn-primary {
     display: none;
   }
-  footer {
+
+  .footer {
     background-color: $dark-green;
-    color: white;
-    position: fixed;
+    color: #fff;
     height: 50;
     width: 100%;
     bottom: 0;
-   
+
     .footer-links {
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-        ul {
-          list-style-type: none;
+
+      ul {
+        list-style-type: none;
+        margin: 1rem 0;
+        align-items: center;
+        padding-left: 0;
+
+        li {
           margin: 1rem 0;
-          align-items: center;
-          padding-left: 0;
-          li {
+
+          a {
+            text-decoration: none;
+            color: #fff;
             margin: 1rem 0;
-          
-              a {
-                text-decoration: none;
-                color: white;
-                margin: 1rem 0; 
-              }
           }
         }
       }
-      .footer-social {
-        display: flex;
-        justify-content:center;        
-        list-style-type: none;
-        img{
-          margin: 10px;
-        }
-  
-      }
     }
 
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      
+      img {
+        margin: 10px;
+      }
+    }
+  }
 }
 
 // Tablet screen size

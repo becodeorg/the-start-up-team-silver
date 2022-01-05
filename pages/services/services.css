@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 200px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar .offcanvas-end {
+    width: 100%;
+  }
+  .navbar .offcanvas-end .offcanvas-title {
+    color: #003E29;
+  }
+  .navbar .offcanvas-end .navbar-nav .nav-link {
+    color: #003E29;
+    font-size: 24px;
+  }
+  .navbar .offcanvas-end .navbar-nav .nav-link:hover, .navbar .offcanvas-end .navbar-nav .nav-link:active {
+    color: #ADE6B9;
+  }
+  .navbar .offcanvas-end .navbar-nav .show > .nav-link,
+  .navbar .offcanvas-end .navbar-nav .nav-link.active {
+    color: #003E29;
+  }
+  .navbar .offcanvas-end .navbar-nav .show > .nav-link:hover,
+  .navbar .offcanvas-end .navbar-nav .nav-link.active:hover {
+    color: #ADE6B9;
+  }
+  .navbar img {
+    height: 100px;
+    width: 100px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar ul li {
+    padding: 10px;
+  }
+  .nav-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .navbar {
+    padding-bottom: 0;
+    padding-right: 2rem;
+  }
+  .navbar .offcanvas-end {
+    width: 60%;
+  }
+  .navbar .offcanvas-end .offcanvas-title {
+    font-size: 36px;
+  }
+  .navbar .offcanvas-end .navbar-nav .nav-link {
+    font-size: 24px;
+  }
+  .navbar img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
+  }
+  .btn-primary {
+    color: #003E29;
+    background-color: #ADE6B9;
+    border-color: #ADE6B9;
+    font-size: 24px;
+    padding: 10px 25px;
+  }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    color: #fff;
+    background-color: #003E29;
+    border-color: #003E29;
+  }
+  .navbar {
+    padding-bottom: 0;
+    padding-right: 2rem;
+  }
+  .navbar img {
+    height: 200px;
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=services.css.map */

@@ -29,6 +29,7 @@
 
     p {
       padding: 0 0 20px 20px;
+      text-align: center;
     }
 
     .btn-secondary {
@@ -42,7 +43,20 @@
 }
 
 @media only screen and (min-width: 576px) {
+  .call-to-action {
 
+    h2 {
+      font-size: 36px;
+    }
+
+    p {
+      padding: 0 0 20px 50px;
+    }
+
+    .btn-secondary {
+      font-size: 26px;
+    }
+  }
 }
 
 @media only screen and (min-width: 992px) {

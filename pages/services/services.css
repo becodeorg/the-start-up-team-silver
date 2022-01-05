@@ -190,6 +190,7 @@ body {
   }
   .call-to-action p {
     padding: 0 0 20px 20px;
+    text-align: center;
   }
   .call-to-action .btn-secondary {
     font-size: 20px;
@@ -197,6 +198,18 @@ body {
     background-color: #ADE6B9;
     color: #003E29;
     border-color: #ADE6B9;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .call-to-action h2 {
+    font-size: 36px;
+  }
+  .call-to-action p {
+    padding: 0 0 20px 50px;
+  }
+  .call-to-action .btn-secondary {
+    font-size: 26px;
   }
 }
 /*# sourceMappingURL=services.css.map */

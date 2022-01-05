@@ -17,7 +17,7 @@
   }
 
   .call-to-action {
-    padding: 30px 0;
+    padding: 30px 0 50px 0;
     background-color: $grey;
 
     h2 {
@@ -33,6 +33,7 @@
 
     .btn-secondary {
       font-size: 20px;
+      font-weight: 700;
       background-color: $light-green;
       color: $dark-green;
       border-color: $light-green;

@@ -61,33 +61,49 @@ body {
     background-color: #003E29;
     color: white;
     position: fixed;
-    margin-top: 2%;
     height: 50;
     width: 100%;
-    text-align: center;
-    font-size: 0.8em;
     bottom: 0;
   }
-  footer ul {
-    list-style-type: none;
-    margin: 1rem 0;
-    text-decoration: none;
+  footer .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
-  footer ul li {
-    margin: 1rem;
+  footer .footer-links ul {
+    list-style-type: none;
+    margin: 1rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
   }
-  footer ul li a {
+  footer .footer-links ul li {
+    margin: 1rem 0;
+  }
+  footer .footer-links ul li a {
     text-decoration: none;
     color: white;
     margin: 1rem 0;
   }
-  footer ul .social-media ul {
+  footer .footer-social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style-type: none;
+  }
+  footer .footer-social img {
+    margin: 10px;
   }
 }
 
@@ -164,7 +180,7 @@ body {
     text-align: center;
   }
   .call-to-action {
-    padding: 30px 0;
+    padding: 30px 0 50px 0;
     background-color: #BCBDBC;
   }
   .call-to-action h2 {
@@ -178,6 +194,7 @@ body {
   }
   .call-to-action .btn-secondary {
     font-size: 20px;
+    font-weight: 700;
     background-color: #ADE6B9;
     color: #003E29;
     border-color: #ADE6B9;

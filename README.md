@@ -18,9 +18,9 @@
   - [ ] HTML&CSS tablet version
   - [ ] HTML&CSS desktop version
 - [ ] Contact (Jordy)
-  - [ ] Wireframe mobile version
-  - [ ] Wireframe tablet version
-  - [ ] Wireframe desktop version
+  - [x] Wireframe mobile version
+  - [x] Wireframe tablet version
+  - [x] Wireframe desktop version
   - [ ] HTML&CSS mobile version
   - [ ] HTML&CSS tablet version
   - [ ] HTML&CSS desktop version

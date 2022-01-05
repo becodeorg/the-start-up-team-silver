@@ -11,9 +11,9 @@
   - [ ] Reviews
   - [ ] Footer
 - [ ] Services (Muhammet)
-  - [ ] Wireframe mobile version
-  - [ ] Wireframe tablet version
-  - [ ] Wireframe desktop version
+  - [x] Wireframe mobile version
+  - [x] Wireframe tablet version
+  - [x] Wireframe desktop version
   - [ ] HTML&CSS mobile version
   - [ ] HTML&CSS tablet version
   - [ ] HTML&CSS desktop version
@@ -27,7 +27,7 @@
 
 ### Nice to have's in Github Readme file
 
-- [x] Color palette hex codes with actual color (eg. text color)
+> - [x] Color palette hex codes with actual color (eg. text color) => it's not possible in GitHub :'(
 
 <!-- This --- is used for drawing a horizontal line (seperator) -->
 ---

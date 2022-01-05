@@ -60,9 +60,6 @@ body {
   .footer {
     background-color: #003E29;
     color: #fff;
-    height: 50;
-    width: 100%;
-    bottom: 0;
   }
   .footer .footer-links {
     display: -webkit-box;

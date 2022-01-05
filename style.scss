@@ -61,6 +61,18 @@
   .btn-primary {
     display: none;
   }
+  footer{
+    background-color: $dark-green;
+    color: white;
+    position: fixed;
+    margin-top: 2%;
+    height: 50;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;   
+  }
+
 }
 
 // Tablet screen size

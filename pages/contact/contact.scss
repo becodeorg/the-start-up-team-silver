@@ -1,0 +1,13 @@
+@import "variables";
+
+*{
+    
+    margin: 0;
+    padding:0;
+    body{
+        .hero-1 {
+            background-color: $dark-green;
+            color:$light-green;
+        }
+    }
+}

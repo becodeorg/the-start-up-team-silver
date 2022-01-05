@@ -1,0 +1,66 @@
+// Reset style
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    padding-top: 0;
+
+    .offcanvas-end {
+      width: 100%;
+
+      .offcanvas-title {
+        color: green;
+      }
+
+      .navbar-nav {
+        .nav-link {
+          color: green;
+          font-size: 24px;
+
+          &:hover,
+          &:active {
+            color: lightgreen;
+          }
+        }
+
+        .show > .nav-link,
+        .nav-link.active {
+          color: lightgreen;
+
+          &:active {
+            color: green;
+          }
+        }
+      }
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin: 1rem 0;
+      align-items: center;
+
+      li {
+        padding: 10px;
+      }
+    }
+
+    // img {
+    //   height: 100px;
+    //   width: 100px;
+    // }
+  }
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar .offcanvas-end {
+    width: 100%;
+  }
+  .navbar .offcanvas-end .offcanvas-title {
+    color: green;
+  }
+  .navbar .offcanvas-end .navbar-nav .nav-link {
+    color: green;
+    font-size: 24px;
+  }
+  .navbar .offcanvas-end .navbar-nav .nav-link:hover, .navbar .offcanvas-end .navbar-nav .nav-link:active {
+    color: lightgreen;
+  }
+  .navbar .offcanvas-end .navbar-nav .show > .nav-link,
+  .navbar .offcanvas-end .navbar-nav .nav-link.active {
+    color: lightgreen;
+  }
+  .navbar .offcanvas-end .navbar-nav .show > .nav-link:active,
+  .navbar .offcanvas-end .navbar-nav .nav-link.active:active {
+    color: green;
+  }
+  .navbar img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

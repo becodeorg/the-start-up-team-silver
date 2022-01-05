@@ -73,7 +73,23 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
+  }
+  .btn-primary {
+    color: #003E29;
+    background-color: #ADE6B9;
+    border-color: #ADE6B9;
+    font-size: 24px;
+    padding: 10px 25px;
+  }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    color: #fff;
+    background-color: #003E29;
+    border-color: #003E29;
+  }
   .navbar {
     padding-bottom: 0;
     padding-right: 2rem;

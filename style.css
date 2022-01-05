@@ -48,7 +48,7 @@
   .navbar ul li {
     padding: 10px;
   }
-  .nav-desktop {
+  .btn-primary {
     display: none;
   }
 }
@@ -78,7 +78,11 @@
     width: 70vw !important;
     margin-left: 15vw !important;
   }
+  a p {
+    display: none;
+  }
   .btn-primary {
+    display: block;
     color: #003E29;
     background-color: #ADE6B9;
     border-color: #ADE6B9;

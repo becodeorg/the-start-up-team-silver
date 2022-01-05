@@ -57,7 +57,7 @@
     }
   }
 
-  .nav-desktop {
+  .btn-primary {
     display: none;
   }
 }
@@ -94,7 +94,14 @@
     margin-left: 15vw !important;
   }
 
+  a {
+    p {
+      display: none;
+    }
+  }
+
   .btn-primary {
+      display: block;
       color: $dark-green;
       background-color: $light-green;
       border-color: $light-green;

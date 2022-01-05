@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+* body .card {
+  background-color: #003E29;
+  color: #ADE6B9;
+}
+
 * body .hero-1 {
   background-color: #003E29;
   color: #ADE6B9;

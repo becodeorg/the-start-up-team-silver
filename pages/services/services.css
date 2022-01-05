@@ -48,7 +48,7 @@
   .navbar ul li {
     padding: 10px;
   }
-  .nav-desktop {
+  .btn-primary {
     display: none;
   }
 }
@@ -71,14 +71,11 @@
     height: 150px;
     width: 150px;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    width: 70vw !important;
-    margin-left: 15vw !important;
+  a p {
+    display: none;
   }
   .btn-primary {
+    display: block;
     color: #003E29;
     background-color: #ADE6B9;
     border-color: #ADE6B9;
@@ -89,6 +86,13 @@
     color: #fff;
     background-color: #003E29;
     border-color: #003E29;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
   }
   .navbar {
     padding-bottom: 0;

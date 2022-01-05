@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+// Smartphone screen size
 @media only screen and (min-width: 200px) {
   .navbar {
     padding-top: 0;
@@ -62,6 +63,7 @@
   }
 }
 
+// Tablet screen size
 @media only screen and (min-width: 576px) {
   .navbar {
     padding-bottom: 0;
@@ -86,13 +88,6 @@
       width: 150px;
     }
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    width: 70vw !important;
-    margin-left: 15vw !important;
-  }
 
   a {
     p {
@@ -101,18 +96,28 @@
   }
 
   .btn-primary {
-      display: block;
-      color: $dark-green;
-      background-color: $light-green;
-      border-color: $light-green;
-      font-size: 24px;
-      padding: 10px 25px;
+    display: block;
+    color: $dark-green;
+    background-color: $light-green;
+    border-color: $light-green;
+    font-size: 24px;
+    padding: 10px 25px;
 
-      &:hover, &:active, &:focus {
-        color: #fff;
-        background-color: $dark-green;
-        border-color: $dark-green;
-      }
+    &:hover,
+    &:active,
+    &:focus {
+      color: #fff;
+      background-color: $dark-green;
+      border-color: $dark-green;
+    }
+  }
+}
+
+// Desktop screen size
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 70vw !important;
+    margin-left: 15vw !important;
   }
 
   .navbar {

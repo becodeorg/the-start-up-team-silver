@@ -1,98 +1,132 @@
 @import "../headerandfooter.scss";
-* {   
-    margin: 0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 
-    body{
-        .card {
-            background-color: $dark-green;
-            color:$light-green;
-        }
-        .hero-1 {
-            background-color: $dark-green;
-            color:$light-green;
-        }
-        .contactinfocontainer {
-            color: $dark-green;
-            display: flex;
-            iframe{
-                width: 100%;
-                height: auto;
-            }
-            
-
-            .contactinf{
-                display: flex;
-                flex-direction: column;
-
-            
-                i{
-                    margin:10px;
-                }
-                a {
-                    text-decoration: none;
-                    color: $dark-green;
-                    &:hover{
-                        text-decoration: underline;
-                    }
-                }
-            
-            }
-        }
-            .title {
-                color:$dark-green;
-            }
-        .containercontact{
-
-            background-color: $grey;
-            color: $dark-green;
-            width: 90%;
-            margin:5% 5%;
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-
-                input[type=text], select, textarea {
-                    width: 100%;
-                    padding: 12px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-sizing: border-box;
-                    margin-top: 6px;
-                    margin-bottom: 16px;
-                    resize: vertical;
-                }
-                    input[type=tel], select, textarea {
-                        width: 100%;
-                        padding: 12px;
-                        border: 1px solid #ccc;
-                        border-radius: 4px;
-                        box-sizing: border-box;
-                        margin-top: 6px;
-                        margin-bottom: 16px;
-                        resize: vertical;
-                    }
-                
-                    input[type=submit] {
-                        background-color: #04AA6D;
-                        color: white;
-                        padding: 12px 20px;
-                        border: none;
-                        border-radius: 4px;
-                        cursor: pointer;
-                    }
-                
-                    input[type=submit]:hover {
-                        background-color: #45a049;
-                    }
-                  
-            }     
-       
+  body {
+    .card {
+      background-color: $dark-green;
+      color: $light-green;
     }
-    @media only screen and (min-width: 200px) {
-        .contactinfocontainer {
-            flex-direction: column;
-        }
-
+    .hero-1 {
+      background-color: $dark-green;
+      color: $light-green;
     }
+    //contactinfo + map
+    .contactinf {
+      color: $dark-green;
+      margin:10px;
+    }
+
+    .contactinfocontainer {
+      display: flex;
+
+      i {
+        margin: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: $dark-green;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .title {
+      color: $dark-green;
+    }
+    .containercontact {
+      background-color: $grey;
+      color: $dark-green;
+      width: 90%;
+      margin: 5% 5%;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="tel"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        color: $dark-green;
+        background-color: $light-green;
+        border-color: $light-green;
+        font-size: 24px;
+        padding: 10px 25px;
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: #fff;
+          background-color: $dark-green;
+          border-color: $dark-green;
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 200px) {
+    .contactinfocontainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .map {
+        width: 100%;
+        height: auto;
+        iframe {
+          width: 100%;
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 576px) {
+   
+    .contactinfocontainer {
+        
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .map {
+          width: 50%;
+          height: auto;
+          iframe {
+            width: 100%;
+          }
+        }
+      }
+    }
+@media only screen and (min-width: 992px) {
+    .contact-text{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin: 10px;
+    }
+    iframe {
+        height: 400px;
+        width: 400px;
+    }
+}
 }

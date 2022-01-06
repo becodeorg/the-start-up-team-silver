@@ -4,14 +4,24 @@
   padding: 0;
 
   body {
-    .card {
+    .who{
+      background-color: $dark-green;
+      padding: 1rem 1rem;
+    
+    
+     .card {
       background-color: $dark-green;
       color: $light-green;
+
+    
     }
     .hero-1 {
       background-color: $dark-green;
       color: $light-green;
     }
+  }
+  
+  
     //contactinfo + map
     .contactinf {
       color: $dark-green;
@@ -108,13 +118,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        .map {
-          width: 50%;
-          height: auto;
-          iframe {
-            width: 100%;
-          }
-        }
+
       }
     }
 @media only screen and (min-width: 992px) {
@@ -124,9 +128,6 @@
         justify-content:space-between;
         margin: 10px;
     }
-    iframe {
-        height: 400px;
-        width: 400px;
-    }
+
 }
 }

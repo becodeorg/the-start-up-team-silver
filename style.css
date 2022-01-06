@@ -149,6 +149,34 @@ body {
   }
 }
 
+@media only screen and (min-width: 200px) {
+  .reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reviews h2 {
+    text-align: center;
+    color: #003E29;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+  .reviews ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .reviews ul li {
+    margin: 20px 0;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .carousel {
     height: 85vh;
@@ -237,15 +265,18 @@ body {
     background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
   }
   #infinite div.highway-barrier ul.highway-lane {
-    width: calc(180px * 20);
+    width: calc(180px * 24);
   }
   #infinite div.highway-barrier ul.highway-lane li.highway-car {
     width: 180px;
-    -webkit-animation: translateinfinite 25s linear infinite;
-            animation: translateinfinite 25s linear infinite;
+    -webkit-animation: translateinfinite 120s linear infinite;
+            animation: translateinfinite 120s linear infinite;
   }
   #infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
     font-size: 65px;
+  }
+  .reviews {
+    margin: 50px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

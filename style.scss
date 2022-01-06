@@ -1,6 +1,31 @@
 @import "./pages/headerandfooter.scss";
 
 @media only screen and (min-width: 200px) {
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      text-align: center;
+      color: $dark-green;
+      letter-spacing: 3px;
+      margin-bottom: 50px;
+    }
+
+    // .row>* {
+    //   width: 50%;
+    // }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        margin: 20px 0;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -84,14 +109,18 @@
       );
     }
     ul.highway-lane {
-      width: calc(180px * 20);
+      width: calc(180px * 24);
       li.highway-car {
         width: 180px;
-        animation: translateinfinite 25s linear infinite;
+        animation: translateinfinite 120s linear infinite;
         span.fab {
           font-size: 65px;
         }
       }
     }
+  }
+
+  .reviews {
+    margin: 50px 0;
   }
 }

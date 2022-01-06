@@ -268,15 +268,16 @@ body {
   }
   * .contactinfocontainer .map iframe {
     width: 100%;
+    height: 300px;
   }
 }
 
 @media only screen and (min-width: 576px) {
   * .contactinfocontainer {
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: center;
@@ -286,18 +287,37 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-  * .contact-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  * .contactinfocontainer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  * .contactinfocontainer .map {
+    width: 50vw;
+    height: 50vh;
+  }
+  * .contactinfocontainer .map iframe {
+    height: 100%;
+    margin-left: 50px;
+  }
+  * .contactinfocontainer .contact-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  * .contactinfocontainer .contact-text p {
+    font-size: large;
+    margin: 35px;
   }
 }
 /*# sourceMappingURL=contact.css.map */

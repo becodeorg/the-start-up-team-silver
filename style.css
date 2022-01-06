@@ -171,7 +171,6 @@ body {
     text-align: center;
     color: #003E29;
     letter-spacing: 3px;
-    margin-bottom: 50px;
   }
   .reviews .hide-mobile {
     display: none;
@@ -182,6 +181,13 @@ body {
   }
   .reviews ul li {
     margin: 20px 0;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .reviews {
+    margin: 12vh 0;
   }
 }
 
@@ -202,7 +208,7 @@ body {
             transform: translate(-40%, -40%);
     min-width: 100%;
   }
-  div.highway-slider {
+  .highway-slider {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -212,17 +218,17 @@ body {
     width: 100%;
     height: 250px;
   }
-  div.highway-slider div.highway-barrier {
+  .highway-slider .highway-barrier {
     overflow: hidden;
     position: relative;
   }
-  div.highway-slider ul.highway-lane {
+  .highway-slider .highway-lane {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 100%;
   }
-  div.highway-slider ul.highway-lane li.highway-car {
+  .highway-slider .highway-lane .highway-car {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -250,41 +256,41 @@ body {
               transform: translateX(calc(-180px * 12));
     }
   }
-  #infinite div.highway-barrier {
+  #infinite .highway-barrier {
     background: #fff;
   }
-  #infinite div.highway-barrier::before, #infinite div.highway-barrier::after {
+  #infinite .highway-barrier::before, #infinite .highway-barrier::after {
     content: " ";
     position: absolute;
     z-index: 9;
     width: 180px;
     height: 100%;
   }
-  #infinite div.highway-barrier::before {
+  #infinite .highway-barrier::before {
     top: 0;
     left: 0;
     background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   }
-  #infinite div.highway-barrier::after {
+  #infinite .highway-barrier::after {
     top: 0;
     right: 0;
     background: -webkit-gradient(linear, right top, left top, from(white), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
   }
-  #infinite div.highway-barrier ul.highway-lane {
+  #infinite .highway-barrier .highway-lane {
     width: calc(180px * 24);
   }
-  #infinite div.highway-barrier ul.highway-lane li.highway-car {
+  #infinite .highway-barrier .highway-lane .highway-car {
     width: 180px;
     -webkit-animation: translateinfinite 120s linear infinite;
             animation: translateinfinite 120s linear infinite;
   }
-  #infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
-    font-size: 65px;
-  }
   .reviews {
-    margin: 200px 0;
+    margin: 12vh 0;
+  }
+  .reviews h1 {
+    margin-bottom: 3vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

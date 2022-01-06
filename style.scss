@@ -14,7 +14,6 @@
       text-align: center;
       color: $dark-green;
       letter-spacing: 3px;
-      margin-bottom: 50px;
     }
 
     .hide-mobile {
@@ -27,13 +26,16 @@
 
       li {
         margin: 20px 0;
+        padding: 0 20px;
       }
     }
   }
 }
 
 @media only screen and (min-width: 576px) {
-
+  .reviews {
+    margin: 12vh 0;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -57,19 +59,21 @@
 
   // Code from https://codepen.io/springerkc/pen/aMxxyO
   // Animation for sliding reviews
-  div.highway-slider {
+  .highway-slider {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 250px;
-    div.highway-barrier {
+
+    .highway-barrier {
       overflow: hidden;
       position: relative;
     }
-    ul.highway-lane {
+    .highway-lane {
       display: flex;
       height: 100%;
-      li.highway-car {
+
+      .highway-car {
         flex: 1;
         display: flex;
         justify-content: center;
@@ -85,7 +89,7 @@
       transform: translateX(calc(-180px * 12));
     }
   }
-  #infinite div.highway-barrier {
+  #infinite .highway-barrier {
     background: #fff;
     &::before,
     &::after {
@@ -113,19 +117,20 @@
         rgba(255, 255, 255, 0) 100%
       );
     }
-    ul.highway-lane {
+    .highway-lane {
       width: calc(180px * 24);
-      li.highway-car {
+      .highway-car {
         width: 180px;
         animation: translateinfinite 120s linear infinite;
-        span.fab {
-          font-size: 65px;
-        }
       }
     }
   }
 
   .reviews {
-    margin: 200px 0;
+    margin: 12vh 0;
+
+    h1 {
+      margin-bottom: 3vh;
+    }
   }
 }

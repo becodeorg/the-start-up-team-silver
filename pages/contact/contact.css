@@ -163,4 +163,99 @@ body {
   background-color: #003E29;
   color: #ADE6B9;
 }
+
+* body .contactinfocontainer {
+  color: #003E29;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .contactinfocontainer iframe {
+  width: 100%;
+  height: auto;
+}
+
+* body .contactinfocontainer .contactinf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body .contactinfocontainer .contactinf i {
+  margin: 10px;
+}
+
+* body .contactinfocontainer .contactinf a {
+  text-decoration: none;
+  color: #003E29;
+}
+
+* body .contactinfocontainer .contactinf a:hover {
+  text-decoration: underline;
+}
+
+* body .title {
+  color: #003E29;
+}
+
+* body .containercontact {
+  background-color: #BCBDBC;
+  color: #003E29;
+  width: 90%;
+  margin: 5% 5%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+* body .containercontact input[type=text], * body .containercontact select, * body .containercontact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+* body .containercontact input[type=tel], * body .containercontact select, * body .containercontact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+* body .containercontact input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+* body .containercontact input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (min-width: 200px) {
+  * .contactinfocontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

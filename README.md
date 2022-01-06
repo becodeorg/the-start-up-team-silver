@@ -1,41 +1,5 @@
 # Startup - IT 4 YOU
 
-## Checklist - TODO's
-
-- [x] Choose a company name, logo, slogan
-- [x] Choose a color palette
-- [ ] Homepage (Jordy & Muhammet)
-  - [x] Navbar
-  - [ ] Hero
-  - [ ] Reviews
-  - [ ] Footer
-- [ ] Services (Muhammet)
-  - [x] Wireframe mobile version
-  - [x] Wireframe tablet version
-  - [x] Wireframe desktop version
-  - [x] HTML&CSS mobile version
-  - [x] HTML&CSS tablet version
-  - [x] HTML&CSS desktop version
-  - [x] Cards with services layout
-  - [ ] Cards with services texts & images
-- [ ] Contact (Jordy)
-  - [x] Wireframe mobile version
-  - [x] Wireframe tablet version
-  - [x] Wireframe desktop version
-  - [ ] HTML&CSS mobile version
-  - [ ] HTML&CSS tablet version
-  - [ ] HTML&CSS desktop version
-  - [ ] Contact form with <https://formspree.io/>
-  - [ ] Phone number should be clickable and try to call when clicked
-  - [ ] Google maps pinned on the location of the company
-
-### Nice to have's in Github Readme file
-
-> - [x] Color palette hex codes with actual color (eg. text color) => it's not possible in GitHub :'(
-
-<!-- This --- is used for drawing a horizontal line (seperator) -->
----
-
 ## Using comments
 
 To add comments use the '>' without the single quotation marks before your comment and it will show like the example.
@@ -44,10 +8,9 @@ To add comments use the '>' without the single quotation marks before your comme
 
 ## Figma
 
-We are using Figma for wireframing. We created a team to work on the design together.
-To join the team click on the link.
+We use Figma to wireframe our design. We created a team to work on the design together. 
+The designs can be found in <[Wireframes](images/wireframes/)>
 
-Figma Team Link: <https://www.figma.com/team_invite/redeem/DIWvBXenmAR4MAMC5E4ORC>
 
 ## Color scheme
 

@@ -149,6 +149,11 @@ body {
   }
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @media only screen and (min-width: 200px) {
   .reviews {
     display: -webkit-box;
@@ -162,11 +167,14 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .reviews h2 {
+  .reviews h1 {
     text-align: center;
     color: #003E29;
     letter-spacing: 3px;
     margin-bottom: 50px;
+  }
+  .reviews .hide-mobile {
+    display: none;
   }
   .reviews ul {
     list-style-type: none;
@@ -276,7 +284,7 @@ body {
     font-size: 65px;
   }
   .reviews {
-    margin: 50px 0;
+    margin: 200px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

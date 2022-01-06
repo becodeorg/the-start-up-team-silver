@@ -1,21 +1,25 @@
 @import "./pages/headerandfooter.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 @media only screen and (min-width: 200px) {
   .reviews {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    h2 {
+    h1 {
       text-align: center;
       color: $dark-green;
       letter-spacing: 3px;
       margin-bottom: 50px;
     }
 
-    // .row>* {
-    //   width: 50%;
-    // }
+    .hide-mobile {
+      display: none;
+    }
 
     ul {
       list-style-type: none;
@@ -29,6 +33,7 @@
 }
 
 @media only screen and (min-width: 576px) {
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -121,6 +126,6 @@
   }
 
   .reviews {
-    margin: 50px 0;
+    margin: 200px 0;
   }
 }

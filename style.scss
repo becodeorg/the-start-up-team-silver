@@ -5,6 +5,32 @@
 }
 
 @media only screen and (min-width: 200px) {
+  .carousel {
+    .dark::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: black;
+      opacity: 0.6;
+      z-index: 1;
+    }
+
+    .carousel-caption {
+      z-index: 2;
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: initial;
+      
+      h1 {
+        margin: 0 7vw;
+      }
+    }
+  }
+
   .reviews {
     display: flex;
     flex-direction: column;

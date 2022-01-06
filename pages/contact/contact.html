@@ -109,7 +109,7 @@
             <h1>Contact us</h1>
 
             <div class="containercontact">
-            <form action="/action_page.php">
+            <form>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -126,19 +126,19 @@
                 <input type="tel" id="tel" placeholder="+3293661992">
 
                 <label for="subject">Do you have a question for us?</label>
-                <textarea id="subject" name="subject" placeholder="Ask here (and remember their ar no stupid questions" style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Ask here and remember there are no stupid questions" style="height:200px"></textarea>
 
-                <input type="submit" value="Submit">
+                <input type="button" class="btn-primary text-center" value="Submit" onclick="sendEmail()">
             </form>
             </div>
     </section>
     <!--footer-->
     <footer>
         <!--flex container-->
-        <div class="footer-container">
+        <div class="footer-container ">
             <div>
-                <ul>
-                    <li class="linkFooter">
+                <ul class="linkFooter p-0">
+                    <li>
                         <h3>Links</h3>
                     </li>
                     <li><a href="/index.html">Home</a></li>
@@ -148,7 +148,7 @@
                 </ul>
             </div>        
             <div>
-                <ul>
+                <ul class="text-center p-0">
                     <li class="linkFooter">
                         <h3>follow us</h3>
                     </li>                
@@ -163,6 +163,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js" ></script>
+        <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                Host : "send.one.com",
+                Username : "it4you@glenvandesteen.be",
+                Password : "jordyispro147",
+                To : 'jordydepril@gmail.com',
+                From : "it4you@glenvandesteen.be",
+                Subject : "Test email",
+                Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+            }).then(
+              message => alert(message)
+            );
+            }
+        </script>
     
     
 </body>

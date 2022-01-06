@@ -77,15 +77,22 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
 
       ul {
         list-style-type: none;
         text-align: center;
+        padding-left: 0 !important;
+        
+        
         li {
-          padding: 10px;
+          padding-top:1em;
+          padding-left:0 !important;
+        
           a {
             text-decoration: none;
             color: white;
+            
           }
         }
       }
@@ -146,6 +153,9 @@ body {
     .footer-container {
       flex-direction: row;
       justify-content: space-evenly;
+      .linkFooter {
+        align-content: left;
+      }
     }
   }
 }

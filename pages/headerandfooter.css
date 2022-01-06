@@ -79,9 +79,11 @@ body {
   footer .footer-container ul {
     list-style-type: none;
     text-align: center;
+    padding-left: 0 !important;
   }
   footer .footer-container ul li {
-    padding: 10px;
+    padding-top: 1em;
+    padding-left: 0 !important;
   }
   footer .footer-container ul li a {
     text-decoration: none;
@@ -131,6 +133,10 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  footer .footer-container .linkFooter {
+    -ms-flex-line-pack: left;
+        align-content: left;
   }
 }
 

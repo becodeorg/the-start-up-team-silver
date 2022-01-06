@@ -24,7 +24,7 @@
       top: 50%;
       transform: translateY(-50%);
       bottom: initial;
-      
+
       h1 {
         margin: 0 7vw;
       }
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 12vh 0;
 
     h1 {
       text-align: center;
@@ -53,15 +54,18 @@
       li {
         margin: 20px 0;
         padding: 0 20px;
+
+        img {
+          height: 250px;
+          width: 100%;
+          object-fit: cover;
+        }
       }
     }
   }
 }
 
 @media only screen and (min-width: 576px) {
-  .reviews {
-    margin: 12vh 0;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -157,6 +161,15 @@
 
     h1 {
       margin-bottom: 3vh;
+    }
+
+    ul {
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 }

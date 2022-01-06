@@ -154,12 +154,17 @@ body {
   padding: 0;
 }
 
-* body .card {
+* body .who {
+  background-color: #003E29;
+  padding: 1rem 1rem;
+}
+
+* body .who .card {
   background-color: #003E29;
   color: #ADE6B9;
 }
 
-* body .hero-1 {
+* body .who .hero-1 {
   background-color: #003E29;
   color: #ADE6B9;
 }
@@ -278,13 +283,6 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  * .contactinfocontainer .map {
-    width: 50%;
-    height: auto;
-  }
-  * .contactinfocontainer .map iframe {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -300,10 +298,6 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 10px;
-  }
-  * iframe {
-    height: 400px;
-    width: 400px;
   }
 }
 /*# sourceMappingURL=contact.css.map */

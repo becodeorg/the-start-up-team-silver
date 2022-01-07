@@ -24,8 +24,6 @@ Services IT 4 You offers are:
 - Desktop/Laptop: the most powerful tool that is used everyday. Getting through setup process, configuring the settings, installing apps, creating users, connecting to internet and to bluetooth devices (at home), teaching how to use the operating system (Windows/MacOS) and many more
 - House appliances: everything gets smarter every day. Fridges, vacuum cleaners, doorbells, ... the age of IoT is here. Connecting them together can be a problem for most users. Connecting to wifi, installing apps on smartphone/tablet, teaching how to use features
 
----
-
 ## Color scheme
 
 Our color palette is based on the green color. Green color means... TODO explain what color means

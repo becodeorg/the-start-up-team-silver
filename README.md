@@ -39,3 +39,12 @@ Our color palette is based on the green color. Green color means... TODO explain
 
 We use Figma to wireframe our design. We created a team to work on the design together.
 The designs can be found in [Wireframes](images/wireframes/) folder.
+
+## GitHub Pages
+
+Our website is published on GitHub Pages and can be found [here](https://becodeorg.github.io/the-start-up-team-silver/).
+
+## Lighthouse
+
+Lighthouse is used to measure how the website is performing and calculates a score out of 100.
+The results (in .html) of desktop and mobile versions of each page can be found in [Lighthouse-Results](lighthouse-results/) folder.

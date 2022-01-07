@@ -79,9 +79,11 @@ body {
   footer .footer-container ul {
     list-style-type: none;
     text-align: center;
+    padding-left: 0 !important;
   }
   footer .footer-container ul li {
-    padding: 10px;
+    padding-top: 1em;
+    padding-left: 0 !important;
   }
   footer .footer-container ul li a {
     text-decoration: none;
@@ -132,6 +134,10 @@ body {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
+  footer .footer-container .linkFooter {
+    -ms-flex-line-pack: left;
+        align-content: left;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -157,6 +163,10 @@ body {
 * body .who {
   background-color: #003E29;
   padding: 1rem 1rem;
+}
+
+* body .who img {
+  width: 100%;
 }
 
 * body .who .card {
@@ -205,6 +215,14 @@ body {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+* body .containercontact .btn-secondary {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #ADE6B9;
+  color: #003E29;
+  border-color: #ADE6B9;
 }
 
 * body .containercontact input[type="text"],

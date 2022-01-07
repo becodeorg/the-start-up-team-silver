@@ -315,7 +315,8 @@ body {
             justify-content: center;
   }
   * .contactinfocontainer .map {
-    width: 50vw;
+    max-width: 500px;
+    max-height: 500px;
     height: 50vh;
   }
   * .contactinfocontainer .map iframe {

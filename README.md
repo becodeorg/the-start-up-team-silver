@@ -48,3 +48,5 @@ Our website is published on GitHub Pages and can be found [here](https://becodeo
 
 Lighthouse is used to measure how the website is performing and calculates a score out of 100.
 The results (in .html) of desktop and mobile versions of each page can be found in [Lighthouse-Results](lighthouse-results/) folder.
+
+To be able to render HTML files go and open the file on GitHub and prepend (copy before) this link: <https://htmlpreview.github.io/?>

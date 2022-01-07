@@ -7,6 +7,11 @@
     .who{
       background-color: $dark-green;
       padding: 1rem 1rem;
+    img{
+      width: 100%;
+      
+
+    }
     
     
      .card {
@@ -54,6 +59,13 @@
       border-radius: 5px;
       background-color: #f2f2f2;
       padding: 20px;
+      .btn-secondary {
+        font-size: 20px;
+        font-weight: 700;
+        background-color: $light-green;
+        color: $dark-green;
+        border-color: $light-green;
+      }
 
       input[type="text"],
       select,
@@ -94,6 +106,7 @@
           background-color: $dark-green;
           border-color: $dark-green;
         }
+        
       }
     }
   }

@@ -26,7 +26,15 @@ Services IT 4 You offers are:
 
 ## Color scheme
 
-Our color palette is based on the green color. Green color means... TODO explain what color means
+Our color palette is based on the green color.
+
+Green color means...
+
+Green is calming: shades of green found in nature may help put us at ease in a new place. For this reason, designers often feature the color green in public spaces like restaurants and hotels or in this case websites.
+
+Green is natural: green's calming effects may be due to its associations with nature, which people often feel is relaxing and refreshing. Some researchers think our positive association with green is "hard-wired" in our brains from evolution; early humans knew that green in nature indicates a place where food, water, and shelter can be found.
+
+> The color green may positively impact our thinking, our relationships, and our physical health. Green is thought to relieve stress and help heal.
 
 - <span style="color: #003E29;">Dark Green</span> -> #003E29
 - <span style="color: #ADE6B9;">Light Green</span> -> #ADE6B9
